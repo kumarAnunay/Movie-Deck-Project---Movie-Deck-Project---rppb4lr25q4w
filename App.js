@@ -1,5 +1,7 @@
 var movies = [], allMoviesGrid, favMovies, favGrid;
-const regex = /^[a-zA-Z0-9!@#\$%\^\&*\)\(+=._-]+$/;
+// const regex = /^[a-zA-Z0-9!@#\$%\^\&*\)\(+=._-]+$/
+
+const regex = /^[0-9!@#\$%\^\&*\)\(+=._-]+$/
 
 class Movie {
 
